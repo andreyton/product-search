@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">test</string>
+    <string name="buscar_productos">Buscar Productos</string>
+    <string name="mensaje_mercado_libre">API catalogo de productos de mercado libre</string>
+    <string name="resultados_para">Resultados:</string>
+    <string name="ha_ocurrido_un_error">Ha ocurrido un error</string>
+    <string name="no_se_encontraron_productos">No se encontraron productos</string>
+    <string name="alerta">Advertencia</string>
+    <string name="error">Error</string>
+    <string name="re_intentar">Re intentar</string>
+    <string name="detalle">Detalle</string>
+    <string name="descripci_n">Descripción</string>
+    <string name="lo_que_ten_s_que_saber_de_este_producto">Lo que tenés que saber de este producto</string>
+    <string name="caracter_sticas">Características</string>
+    <string name="meli_box">Meli Box</string>
+</resources>
