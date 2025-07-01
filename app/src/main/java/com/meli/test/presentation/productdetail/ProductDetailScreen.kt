@@ -38,7 +38,7 @@ fun ProductDetailScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
 
-    LaunchedEffect(Unit) {
+    LaunchedEffect(productId) {
         viewModel.loadProductDetails()
     }
 

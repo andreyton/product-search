@@ -21,6 +21,11 @@ class ProductDetailViewModel(
      * Call service to get product detail from a specific id
      */
     fun loadProductDetails() {
+
+        if( _uiState.value.productDetail != null) {
+            return
+        }
+
         viewModelScope.launch {
             _uiState.update { it.copy(isLoading = true, error = null) }
             
